@@ -18,8 +18,7 @@ class _CreateProfireState extends State<CreateProfire> {
   Widget build(BuildContext context) {
     return  Scaffold(
       appBar: AppBar(
-        backgroundColor:Color.fromRGBO(226, 212, 186, 100),
-        elevation: 0,
+        backgroundColor:Colors.brown,
         iconTheme: IconThemeData(color: Colors.white),
         title: Text('初期登録',style:TextStyle(color: Colors.white),),
         centerTitle: true,
@@ -67,7 +66,7 @@ class _CreateProfireState extends State<CreateProfire> {
                 width: 200,
                 height: 50,
                 child: ElevatedButton(
-                  style: ElevatedButton.styleFrom(primary:Color.fromRGBO(226, 212, 186, 100)),
+                  style: ElevatedButton.styleFrom(primary:Colors.brown),
                   onPressed: (){
                     if(nameController.text.isNotEmpty 
                         && selfIntroductionController.text.isNotEmpty
